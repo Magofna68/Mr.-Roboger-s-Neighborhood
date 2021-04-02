@@ -31,7 +31,17 @@ If below link isnt working; the backup method will be cloning repository to loca
 
 ## Specs
 
-* _test_
+* _Describe: indexNumber()_
+
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: indexNumber(0);
+Expected Output: 0_
+
+Test: "It should return an array with '1, 2, & 3' with "beep!", "boop!" & "Wont you be my neighbor?"
+Code: 
+indexNumber(3)
+Expected Output: 0, beep!, boop! Wont you be my neighbor?
+
 
 ## Known Bugs
 
