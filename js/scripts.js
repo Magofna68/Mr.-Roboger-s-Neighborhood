@@ -13,28 +13,31 @@ const neighbor = "wont you be my neighbor?";
 let indexNumber = function (inputText) {
   let numberArray = [];
   for (let i = 0; i <= inputText; i++) {
-    numberArray.push.toString(i);
+    numberArray.push(i.toString());
   }
-  console.log(numberArray);
-}
-//       return "Beep!";
-//     } else if (numberInput.includes("2")) {
-//       return "Boop!";
-//     } else if (numberInput.includes("3")) {
-//       return "Won't you be my neighbor?";
-//     }
-//     return numberInput;
-//   }
-//   function inputArray() {
 
-//   }
-//   //   });
-// });
+
+  let textOutput = numberArray.map(function (input) {
+    if (input.includes("1")) {
+      return input = beep;
+    } else if (input.includes("2")) {
+      return input = boop;
+    } else if (input.includes("3")) {
+      return input = neighbor;
+    } else {
+      return input;
+    }
+  });
+  return textOutput;
+};
+
 $(document).ready(function () {
   $("#form").submit(function (event) {
     event.preventDefault();
     let inputText = parseInt($("#inputText").val());
     var result = indexNumber(inputText);
-    $("#demo").text(result);
+    $("#results").text(result);
+    $(".output").show();
   });
 });
+console.log(textOutput)
