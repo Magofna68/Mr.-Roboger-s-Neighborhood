@@ -13,7 +13,7 @@
 
 ## Description
 
-_Using the above technologies, this user friendly application will generate a fun series of muddled words and phrases dependant on what the user inputs._
+_Using the above techno#logies, this user friendly application will generate a fun series of muddled words and phrases dependant on what the user inputs._
 
 ## Setup/Installation Requirements
 
