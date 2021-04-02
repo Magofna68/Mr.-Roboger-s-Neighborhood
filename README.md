@@ -20,7 +20,7 @@ _Using the above techno#logies, this user friendly application will generate a f
 If below link isnt working; the backup method will be cloning repository to local repository:
 
 * Github repository: https://github.com/Magofna68/Mr.-Roboger-s-Neighborhood
-* Github pages: 
+* Github pages: https://magofna68.github.io/Mr.-Roboger-s-Neighborhood/
 
 * _Go to Github and navigate to main page of repository you wish to clone_
 * _Above the list of files, click the green "code" button, and select the clipboard to copy URL under "clone with https"_
