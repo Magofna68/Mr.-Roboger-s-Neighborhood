@@ -1,8 +1,8 @@
 
 //                            Business Logic:
-const beep = "Beep!";
-const boop = "Boop!";
-const neighbor = "Wont you be my neighbor?";
+const beep = " Beep!";
+const boop = " Boop!";
+const neighbor = " Wont you be my neighbor?";
 
 let indexNumber = function (inputText) {
   let numberArray = [];

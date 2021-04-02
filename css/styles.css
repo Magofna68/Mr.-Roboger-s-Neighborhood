@@ -1,4 +1,44 @@
-#number-input {
-  padding-left: 20px;
-  padding-top: 15px;
+#button {
+  margin-bottom: 15px;
+  color: red;
+  background-color: black;
+  border: solid;
+  border-color: red;
+  align-items: center;
+}
+#form {
+  background-color: black;
+  color: red;
+  margin-left: 15px;
+  padding-left: 41%;
+  padding-right: 41%;
+  margin-right: 15px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+#results {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: fantasy;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#inputText {
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  background-color: red;
+  font-family: fantasy;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-style:dotted;
+  border-color: gray;
+}
+.form-group {
 }

@@ -31,18 +31,22 @@ If below link isnt working; the backup method will be cloning repository to loca
 
 ## Specs
 
-* _Describe: indexNumber()_
+### Describe: indexNumber()
 
 Test: "It should return an array with a 0 if the number 0 is inputted"
 Code: indexNumber(0);
 Expected Output: 0_
+
+Test: "It should return a string of all numbers, including the input number"
+Code: indexNumber(3)
+Expected Output: 0, 1, 2, 3
 
 Test: "It should return values of '1, 2, & 3' with "beep!", "boop!" & "Wont you be my neighbor?"
 Code: 
 indexNumber(3)
 Expected Output: 0, 1, 2, Wont you be my neighbor?
 
-Test: "It should return a string of numbers up till the inputed number and reflect corresponding values"
+Test: "It should return a string of numbers and reflect corresponding values"
 Code:
 indexNumber(3)
 Expected Output: 0, "beep!", "boop!", "Wont you be my neighbor"
