@@ -41,29 +41,3 @@ $(document).ready(function () {
     $(".output").show();
   });
 });
-
-// Prior Attempts:
-
-// if (input.includes("1")) {
-  //   return input = beep;
-  // } else if (input.includes("1" && "2")) {
-    //   return input = boop;
-    // } else if (input.includes("2")) {
-      //   return input = boop;
-      // } else if (input.includes("1" && "3")) {
-        //   return input = neighbor;
-        // } else if (input.includes("2" && "3")) {
-          //   return input = neighbor;
-          // } else if (input.includes("3")) {
-            //   return input = neighbor;
-            // } else {
-              //   return input;
-
-
-              // $(document).ready(function () {
-              //   $("#number-input").submit(function (event)) {
-              // event.preventDefault();
-
-              //     ().onclick()
-              // const numberInput = parseInt($("#number-input").val());
-              // const numberInput = document.getElementById("number-input").value;
